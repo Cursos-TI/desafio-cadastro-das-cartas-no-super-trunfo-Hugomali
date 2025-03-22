@@ -3,77 +3,55 @@
 
 int main(){
 
-   char estado; 
-   char codigo;
-   char nome  [50]; 
-   int populacao;
-   float area; 
-   float pib;
-   int quantidade; 
+   char estado1; 
+   char codigo1;
+   char nome1 [50]; 
+   int populacao1 ;
+   float area1; 
+   float pib1;
+   int quantidade1; 
 
 
    // carta 1 *******
    printf("carta1\n");
 
    printf("qual e o estado: \n");
-   scanf("%s",&estado);
+   scanf("%s",&estado1);
 
 
    printf("qual e numero da carta: \n");
-   scanf("%d",&codigo);
+   scanf("%d",&codigo1);
 
 
    printf("qual e nome da cidade: \n");
-   scanf("%s",&nome);
+   scanf("%s",&nome1);
 
 
    printf("qual e a população: \n");
-   scanf("%d",&populacao);
+   scanf("%d",&populacao1);
 
 
    printf("qual e a area km: \n");
-   scanf("%f",&area);
+   scanf("%f",&area1);
 
 
    printf("qual e o pib: \n");
-   scanf("%f",&pib);
+   scanf("%f",&pib1);
 
 
    printf("quantos pontos turisticos: \n");
-   scanf("%d",&quantidade);
+   scanf("%d",&quantidade1);
 
+/exebição********
+     printf("carta1:\n");
+     printf("estado:%c\n,estado1");
+     printf("codigo:%s\n,nome1");
+     printf("populacao:%d\n:populacao1");
+     printf("area%2f\n:area1");
+     printf("pib%2f\n:pib1");
+     printf("numero de pontos turisticos:%d\n:quantidade1");
 
-
-   // carta 2 *******
    
-   printf("carta2\n");
-
-   printf("qual e o estado: \n");
-   scanf("%s",&estado);
-
-
-   printf("qual e numero da carta: \n");
-   scanf("%d",&codigo);
-
-
-   printf("qual e nome da cidade: \n");
-   scanf("%s",&nome);
-
-
-   printf("qual e a população: \n");
-   scanf("%d",&populacao);
-
-
-   printf("qual e a area km: \n");
-   scanf("%f",&area);
-
-
-   printf("qual e o pib: \n");
-   scanf("%f",&pib);
-
-
-   printf("quantos pontos turisticos: \n");
-   scanf("%d",&quantidade);
 
 
 
