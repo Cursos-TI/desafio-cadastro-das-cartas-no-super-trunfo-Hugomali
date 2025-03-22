@@ -9,11 +9,10 @@ int main(){
    int populacao1 ;
    float area1; 
    float pib1;
-   int quantidade1; 
+   int quantidade1;
+   float desnidade;
+   float pibcapta;
 
-
-   // carta 1 *******
-   printf("carta1\n");
 
    printf("qual e o estado: \n");
    scanf("%s",&estado1);
@@ -57,6 +56,8 @@ int main(){
 
 
 
+
+     
    return 0;
 
 }
